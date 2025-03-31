@@ -1,3 +1,5 @@
+package gsmarena;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -9,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class GSMArenaScraper {
 
     final static String BASE_URL = "https://www.gsmarena.com/";
 
